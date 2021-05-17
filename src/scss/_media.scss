@@ -1,0 +1,151 @@
+@media(max-width:992px){
+    .container{
+        max-width: 960px;
+    }
+    .menu__links{
+        font-size: 16px;
+    }
+    .promo__header{
+        font-size: 90px;
+    }
+    .text{
+        padding: 10px 25px 0 25px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        max-width: 720px;
+    }
+    .promo__header{
+        font-size: 60px;
+    }
+    .promo__subheader{
+        font-size: 16px;
+    }
+
+    .company__wrap-content{
+        flex-direction: column;
+        max-width: 320px;
+        margin: 0 auto;
+        padding: 0px 0 30px 0;
+    }
+    .company__wrapper-us{
+        margin-top: 20px;
+    }
+    .product__header{
+        font-size: 60px;
+    }
+    .product__subheader{
+        font-size: 16px;
+    }
+    .contact__logo-big{
+        left: 25%;
+    }
+}
+@media(max-width:575px){
+
+
+    .container{
+        max-width: 320px;
+    }
+
+    .promo__header{
+        font-size: 45px;
+    }
+    .promo__subheader{
+        font-size: 10px;
+    }
+
+    .product__header{
+        font-size: 45px;
+    }
+    .product__subheader{
+        font-size: 10px;
+    }
+
+    .menu__wrapper{
+        transition: 1s;
+        position: absolute;
+        top: -100vh;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center; 
+        background: rgba($color: #000000, $alpha: 1);   
+        overflow: hidden;
+    }
+    .menu__links{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .menu__logo{
+        position:initial;
+        max-width: 130px;
+        height: 130px;
+    }
+    .hamburger{
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        z-index: 1000;
+        &__span{
+            transition: 0.7s;
+            display: block;
+            margin-bottom: 10px;
+            width:40px;
+            height: 2px;
+            background-color: #E39F4A;
+        }
+    }
+
+
+    .connection{
+        align-items: center;
+    }
+
+    .contact__logo-big{
+        position: initial;
+        max-width: 200px;
+        height: 200px;
+        left: 0;
+        transform: translateX(0);
+    }
+
+    .connection__wrapper-form{
+        align-items: center;
+    }
+
+
+
+    .menu__wrapper-active{
+        top: 0;
+        transition: 1s;
+    }
+
+    .hamburger-active{
+        transition: 1s;
+        margin-top: 10px;
+       span{
+        margin: 0;
+       }
+        span:nth-child(1){
+            transition: 0.7s;
+            transform: rotate(45deg);
+            margin-bottom: -1px;
+        }
+        span:nth-child(2){
+            transition: 0.2s;
+            width: 0;
+            height: 0;
+
+        }
+        span:nth-child(3){
+            transition: 0.7s;
+            transform: rotate(-45deg);
+        }
+    }
+
+}

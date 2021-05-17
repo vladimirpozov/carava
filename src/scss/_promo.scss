@@ -1,0 +1,62 @@
+.promo{
+    position: relative;
+    height: 667px;
+    background: url('../img/second.jpeg')fixed (center/cover)no-repeat;
+}
+
+
+.menu__logo{
+    position: absolute;
+    right: 90%;
+    top: 0;
+    max-width: 50px;
+    height: 50px;
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+    }
+}
+
+.menu__links{
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Helvetic';
+    &:hover{
+        color: #E39F4A;
+    }
+}
+
+p{
+    font-family: 'Helvetic';  
+    font-weight: 700;
+}
+
+.bg-overlay{
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(44,33,5,0.3);
+}
+
+.promo__header{
+    position: relative;
+    z-index: 1;
+    padding: 180px 0 0 0 ;
+    font-size: 120px;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    color:#fff;    
+}
+.promo__subheader{
+    position: relative;
+    z-index: 1x;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,49 @@
+.company{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+hr{
+    display: block;
+    margin: 20px auto;
+    width: 80px;
+    height: 2px;
+    background-color: #E39F4A;
+    border: none;
+}
+
+.company__wrap-content{
+    padding: 100px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.company__wrapper-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: baseline;
+    width: 100%;
+}
+
+.company__icon{
+    width: 70px;
+    img{
+        width: 100%;
+    }
+}
+
+.company__header{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 36px;
+
+}
+p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}

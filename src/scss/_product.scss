@@ -1,0 +1,136 @@
+
+.product{
+    height: 700px;
+}
+
+.product__meet{
+    position: relative;
+    margin: 0 auto;
+    background: url('../img/meet.jpeg')center (center/cover)no-repeat;
+    max-width: 600px;
+    height: 300px;
+}
+.product__bread{
+    position: relative;
+    margin: 20px auto;
+    background: url('../img/bread.jpeg')center (center/cover)no-repeat;
+    max-width: 600px;
+    height: 300px;
+}
+
+.product__fish{
+    position: relative;
+    margin: 20px auto;
+    background: url('../img/fish.jpeg')center (center/cover)no-repeat;
+    height: 300px;
+    max-width: 600px;
+}
+
+.download-meet{
+    position: absolute;
+    max-width: 200px;
+    height: 15px;
+    top: 0;
+    left: 9;
+    left: 66%;
+    right: 0;
+    cursor: pointer;
+}
+
+
+.download-bread{
+    position: absolute;
+    max-width: 200px;
+    height: 15px;
+    top: 93%;
+    left: 9;
+    left: 62%;
+    right: 0;
+    cursor: pointer;
+}
+
+.download-fish{
+    position: absolute;
+    max-width: 200px;
+    height: 15px;
+    top: 87%;
+    left: 9;
+    left: 40%;
+    right: 0;
+    cursor: pointer;
+}
+a{
+    display: block;
+    width: 100%;
+    height: 20px;
+    // position: absolute;
+    // top: 0;
+}
+
+.bg-fon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba($color: #000000, $alpha: 0.3);
+    z-index: -1;
+}
+
+.product__info-contnet{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product__header{
+    font-size: 68px;
+
+}
+
+.product__subheader{
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Helvetic';  
+    font-weight: 700;
+}
+
+.product__swiper-container{
+    margin: 50px auto;
+    max-width: 100%;
+    height: 800px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.product__wrapper-slide{
+    margin-top: 110px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.product__slider-item{
+    height: 140px;
+    padding: 0 10px;
+    img{
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        border:solid 3px #E39F4A;
+    }
+}
+
+.product__pack{
+    position: absolute;
+    max-width: 175px;
+    height: 285px;
+    right: 50%;
+    transform: translateX(50%);
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}

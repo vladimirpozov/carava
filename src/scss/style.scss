@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'NeoSans-light';
+    src: local('NeoSans-Light'), local('NeoSans-Light'),
+        url('../fonts/NeoSans-Light.ttf') format('ttf'),
+        url('../fonts/NeoSans-Light.woff') format('woff'),
+        url('../fonts/NeoSans-Light.woff2') format('woof2');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'NeoSans-reg';
+    src: local('NeoSans-Regular'), local('NeoSans-Regular'),
+        url('../fonts/NeoSans.woff2') format('woff2'),
+        url('../fonts/NeoSans.woff') format('woff'),
+        url('../fonts/NeoSans.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'NeoSans-bold';
+    src: local('NeoSans-Bold'), local('NeoSans-Bold'),
+        url('../fonts/NeoSans-Bold.woff2') format('woff2'),
+        url('../fonts/NeoSans-Bold.woff') format('woff'),
+        url('../fonts/NeoSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family:'Helvetic';
+    src: local('HelveticaNeueCyr-Thin'), local('HelveticaNeueCyr-Thin'),
+        url('../fonts/HelveticaNeueCyr-Thin.ttf') format('ttf'),
+        url('../fonts/HelveticaNeueCyr-Thin.woff') format('woff'),
+        url('../fonts/HelveticaNeueCyr-Thin.woff2') format('woof2');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'NeoSans-light', 'NeoSans-reg', 'NeoSans-bold';
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+
+
+
+@import './menu';
+@import './promo';
+@import './title';
+@import './text';
+@import './company';
+@import './product';
+@import './contact';
+@import './media';

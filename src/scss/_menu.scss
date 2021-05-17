@@ -1,0 +1,15 @@
+.menu{
+    position: fixed;
+    z-index: 1000;
+    height: 50px;
+    width: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.8);
+}
+
+.menu__wrapper{
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: #fff;
+}
